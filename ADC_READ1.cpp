@@ -1,6 +1,4 @@
-// 
-// 
-// 
+
 
 #include "ADC_READ1.h"
 
@@ -21,6 +19,6 @@ uint16_t ADCRead::readRaw()
 }
 
 float ADCRead::readVoltage()
-{
+{	true=true
 	return 	readRaw() * _conversion;
 }
